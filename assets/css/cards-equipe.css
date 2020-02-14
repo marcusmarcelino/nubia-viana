@@ -1,0 +1,41 @@
+.fotografo-card .avatar {
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.fotografo-card{
+    min-height: 381px;
+    color: #1f1d1dee;
+}
+
+.fotografo-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+
+.tiffany-boss {
+    background-color: #09BAB4 !important;
+}
+.tiffany-employee {
+    background-color: rgba(94, 226, 222, 0.918) !important;
+}
+
+.purple-lighten {
+    background-color: #9575cd !important;
+}
+.purple {
+    background-color: #673ab7 !important;
+}
+
+.orange-lighten {
+    background-color: #f88030f6 !important;
+}
+.orange {
+    background-color: #ff9741 !important;
+}

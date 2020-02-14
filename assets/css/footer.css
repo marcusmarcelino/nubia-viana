@@ -1,0 +1,38 @@
+#footer {
+  background: #f6f7f9;
+}
+
+.footer-avatar{
+  max-width: 220px;
+}
+
+#card-footer h6 {
+  font-size: 10pt;
+  font-weight: 800 !important;
+}
+
+#info-footer-social p{
+  font-size: 10pt;
+}
+
+#info-footer-social a{
+  font-size: 23pt;
+  transition: all 0.2s ease-in-out;
+}
+
+#info-footer-social a:hover{
+  /*font-size: 3rem;*/
+}
+
+#info-footer-social {
+  background-color: #93dcf552 !important;
+}
+
+.footer-copyright {
+  background-color: #c1e9f7fa !important;
+}
+
+#card-footer hr{
+  background-color: aqua;
+  width: 10%;
+}

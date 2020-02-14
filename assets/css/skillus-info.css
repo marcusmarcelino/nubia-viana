@@ -1,0 +1,41 @@
+#banner-skillus {
+  background-image: url(../../assets/img/background_09.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 600px;
+}
+
+#historia .family-skillus{
+  text-align: center;
+}
+
+#info-video {
+  background: #1f1e1efa;
+}
+
+#info-video div {
+  margin: 0 auto;
+}
+
+#info-video div div {
+  max-width: 80%;
+}
+
+@media screen and (max-width: 500px) { 
+  #nav #skillus-info-logo{
+    display: none;
+  } 
+  #nav #skillus-info-nav-list{
+    font-size: 1.1rem;
+    padding: 1.5rem 0;
+  }
+
+  #skillus-info-nav-list li a {
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+}

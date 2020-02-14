@@ -1,0 +1,31 @@
+.carousel-3d-container figure {
+   margin:0;
+}
+
+.carousel-3d-container figcaption {
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: #fff;
+   bottom: 0;
+   position: absolute;
+   bottom: 0;
+   padding: 15px;
+   font-size: 12px;
+   min-width: 100%;
+   box-sizing: border-box;
+}
+
+.carousel-3d-controls span {
+   color: aliceblue;
+}
+
+.carousel-3d-slide {
+   
+}
+
+.carousel-3d-slide {
+   border-radius: 7px !important;
+   border: none;
+   border-color: none;
+   background-color: none;
+}

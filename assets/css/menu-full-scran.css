@@ -1,0 +1,96 @@
+.fullscreen-menu-container {
+   position: fixed;
+   top: 12.5rem;
+   left: 0; 
+   z-index: 100; 
+   width: 100vw; 
+   height: 100vh; 
+   overflow: scroll; 
+   background: #1c2331;
+   opacity: 0; 
+   pointer-events: none;
+   transition: top .6s cubic-bezier(0, 0.71, 0, 1.43), opacity 300ms ease-in;
+}
+
+.fullscreen-menu-container.is-open {
+   opacity: 1; 
+   top: 0; 
+   pointer-events: auto; 
+   overflow-x:hidden;
+}
+
+#btn-closer-full-scran {
+   top: -43%;
+   right: -83%;
+   font-size: 3em;
+   position: relative;
+}
+
+.fullscreen-menu {
+   text-align: center;
+   max-width: 62rem;
+   padding: 6rem 2rem 4rem;
+   width: 100%;
+}
+
+.fullscreen-menu a{
+   color: #fff;
+   text-decoration: none;
+}
+
+.fullscreen-menu_image-container {
+   width: 8rem; 
+   height: 8rem;
+   border-radius: 50%;
+   background-image: url('../../assets/img/nubia.jpg');
+   background-size: cover;
+   background-position: center center;
+   margin: 0 auto 1.5rem;
+}
+
+.fullscreen-menu_nav {
+   margin: 3rem 0;
+}
+
+.fullscreen-menu_nav ul {
+   list-style: none;
+   margin: 0; 
+   padding: 0;
+}
+
+.fullscreen-menu_nav a {
+   display: block;
+   font-size: 1.4rem;
+   padding: 1rem;
+   color: #A2A2A2;
+   text-decoration: none;
+   transition: color 200ms ease-in;
+}
+
+.fullscreen-menu .social-button {
+   margin: 0 0.5rem;
+   height: 3.75rem;
+   width: 3.75rem;
+   font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 46rem) {
+   .fullscreen-menu-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+
+   .fullscreen-menu {
+   padding: 0;
+   }
+
+   .fullscreen-menu_nav {
+   margin: 4rem 0;
+   }
+
+   .fullscreen-menu_nav ul {
+      display: flex;
+      justify-content: space-between;
+   }
+}

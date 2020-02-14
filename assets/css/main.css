@@ -1,0 +1,62 @@
+@import 'neon.css';
+@import 'banner.css';
+@import 'scrollbar.css';
+@import 'zoom.css';
+@import 'social-icons.css';
+@import 'cards-equipe.css';
+@import 'footer.css';
+@import 'menu-full-scran.css';
+@import 'carousel-vue-3d-infinito.css';
+@import 'time-line.css';
+@import 'nav-fixed-top.css';
+@import 'skillus-info.css';
+
+body{
+  font-family: 'Quicksand'!important;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#banner nav ul li a:hover,
+.fullscreen-menu_nav ul li a:hover{
+  color: #ebebeb;
+  -webkit-animation: neon5 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon5 1.5s ease-in-out infinite alternate;
+  animation: neon5 1.5s ease-in-out infinite alternate;
+}
+
+#equipe {
+  background: #1f1e1efa;
+  color: #fff;
+}
+
+#destaques {
+  text-align: center;
+}
+
+#historia {
+  min-height: 400px;
+}
+
+.footer-avatar, 
+.logo-avatar,
+.fullscreen-avatar{
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  
+}
+
+@media screen and (max-width: 769px) {
+  #footer {
+    text-align: center!important;
+  }
+  #menu-footer {
+    text-align: center!important;
+  }
+  #footer ul {
+    justify-content: center;
+  }
+}

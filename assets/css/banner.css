@@ -1,0 +1,17 @@
+#banner {
+  background-image: url(../../assets/img/banner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 600px;
+  padding-top: 10rem;
+}
+
+#banner .logo-avatar{
+  min-width: 250px;
+  max-width: 30%;
+}

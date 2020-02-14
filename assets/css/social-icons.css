@@ -1,0 +1,95 @@
+.social-button {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   height: 3rem;
+   width: 3rem;
+   font-size: 1.4rem;
+   color: white;
+   border-radius: 50%;
+   text-decoration: none;
+   transition: background-color 150ms ease-in-out;
+   margin-right: 0.1rem;
+}
+
+.icon-twitter {
+   background-color: #2dabd4;
+}
+
+.icon-twitter:hover {
+   background-color: #1a627a;
+}
+
+.icon-facebook {
+   background-color: #2b3fb1;
+}
+
+.icon-facebook:hover {
+   background-color: #1b2870;
+}
+
+.icon-whatsapp {
+   background-color: #27b115;
+}
+
+.icon-whatsapp:hover {
+   background-color:  #1c8d0d;
+}
+
+.icon-instagram {
+   background-color: #6b238d;
+}
+
+.icon-instagram:hover {
+   background-color: #371247;
+}
+
+.icon-linkedin {
+   background-color: #102894;
+}
+
+.icon-linkedin:hover {
+   background-color: #0e1b55;
+}
+
+.icon-youtube {
+    background-color: #b42424;
+}
+
+.icon-youtube:hover {
+    background-color: #a01010;
+}
+
+/*************************************/
+
+.icon-footer {
+    font-size: 1.7rem;
+}
+
+.icon-instagram-footer:hover {
+    color: #6b238d;
+}
+
+.icon-linkedin-footer:hover {
+   background-color: #0e1b55;
+}
+
+.icon-twitter-footer:hover {
+   color: #2dabd4;
+}
+
+.icon-facebook-footer:hover {
+    color: #2b3fb1;
+}
+
+.icon-whatsapp-footer:hover {
+    color: #27b115;
+}
+
+.icon-linkedin-footer:hover {
+    color: #102894;
+}
+
+.icon-youtube-footer:hover {
+    color: #c51515;
+}
