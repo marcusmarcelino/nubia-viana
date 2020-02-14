@@ -110,43 +110,13 @@
     <div class="container-fluid px-5 py-5">
       <h1 class="text-center mb-3">Minha História</h1>
       <p class="text-justify">
-        Nubia Viana
-
-        Como começou? Comecei vendendo cosméticos. Depois veio a loja de presentes e artigos de decoração.
-        Como conheceu a skillus?
-        Conheceu através de uma cliente
-        Quais foram os obstáculos?
-        me limitei pensando que por ser uma menina do interior, pensei que nunca poderia alcançar o que hoje eu tenho, o
-        lugar não te limita, você precisa visualizar a melhor forma de como superar seus obstáculos.
-        Como conseguiu superar?
-        O que me trouxe para skillus?
-        Conhecer o produto que eu vendo, saber que é um produto de verdade, um produto de qualidade.
-        Neste trabalho já encontrei pessoas muito desesperançadas, sem vida, totalmente acabadas, e que com a minha
-        ajuda, hoje já realizaram seus sonhos de conquistar sua independência financeira.
-        Já passei por situações em que me olhei no espelho e que muito poderiam dizer que a única opção seria a
-        depressão, mas me levantei, me maquiei e segui e frente.
-
-        Hoje eu nao vejo pessoas, vejo tesouros, vasos que precisam ser moldados, refeitos para se tornarem uma obra de
-        arte.
-
-        O sucesso não se criar, dá no copiar dos passos daqueles que te inspiram
-
-        como ganhei meu diamante: no pior momento da minha vida,
-
-        Equipe:
-
-        Rafa, Martinho, Luciana, Cláudia,
-
-        Não existe sucesso sem uma equipe, mas aqui somos uma família!
-
-        Gosto de ouvir às pessoas, e direcioná las para o sucesso, não às recruto para ter ganho, mas para auxiliá-las
-        no passo a passo para alcançar os sonhos de cada uma delas.
-
-        Mostrar para as pessoas que este é um trabalho muito profissional, ético, e Transparente.
-
-        obs:
-
-        Criar aba de inspirações, com podcast e relatos de empregados e clientes
+        Não existem inícios fáceis, e o que eu irei contar a seguir pode até parecer brincadeira, mas é a minha história de vida. Assim como a maioria eu tive que iniciar bem de baixo, minha família era do interior de ..., e não possuíamos uma boa condição financeira, desta forma, para ajudar no financeiro em casa eu vendia panos de pratos, os quais eram confeccionados por minha mãe, e após ajudá-la eu saía de porta em porta para vendê-los. Eu não tenho vergonha de mencionar estes fatos, pois foram eles que me impulsionaram, e que serviram de inspiração e combustivel pra que eu pudesse chegar a onde estou agora.
+      </p>
+      <p class="text-justify">
+        Minha avó trazia coisas da fazenda para que eu e meu irmão vendêssemos, mas como meu irmão tinha vergonha era eu quem acabava vendendo, com sete anos de idade eu já possuía uma mente empreendedora. Mesmo sendo de uma família pobre, com pouca instrução, eu sabia que não poderia deixar que isso me impedisse de romper e conseguir ajudar a minha família, conseguir uma forma de sustento, e “Nunca deixei que às circunstâncias me limitassem”. Deus sempre agiu abrindo portas onde não existiam.
+      </p>
+      <p class="text-justify">
+        Com o tempo eu percebi que possuía uma mente empreendedora e segui buscando aprimorar essa habilidade, esse Dom dado por Deus. E depois de muito esforço, após trabalhar vendendo cosméticos, jóias e produtos decorativos, consegui abrir a primeira loja. Após passar por muitos altos e baixo chegou um momento em que eu pensei que não conseguiria mais, que nunca alcançaria meus objetivos, foi então que eu conheci a Skillus, mas essa história eu irei contar de uma forma mais dinâmica.
       </p>
     </div>
     <section id="timeline">
@@ -279,15 +249,12 @@
               <div class="card-up tiffany-employee">
               </div>
               <div class="avatar mx-auto white zoom">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(27).jpg" alt="John Doe"
-                  class="rounded-circle img-fluid">
+                <img class="img-fluid rounded-circle" v-bind:src="slide.mainSrc" v-bind:alt="slide.name">
               </div>
               <div class="card-body text-center">
-                <h4 class="card-title mt-1">John Doe</h4>
+                <h4 class="card-title mt-1">{{slide.name}}</h4>
                 <hr>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.
-                </p>
+                <p>{{slide.desc}}</p>
               </div>
             </div>
           </div>
@@ -297,6 +264,35 @@
     <h2 class="lead font-italic text-center pt-4">
       Não existe sucesso sem uma equipe, mas aqui somos uma família!
     </h2>
+    <div class="container px-5 py-5">
+      <p class="text-justify">
+        Eu nunca me limitei pensando que por ser uma menina do interior 
+        nunca poderia alcançar eu tenho hoje, <span class="font-italic font-weight-bold">“o lugar não te limita, 
+          você precisa visualizar a melhor forma de superar seus obstáculos, 
+          e seguir em frente”</span>. Neste trabalho já encontrei pessoas muito 
+        desesperançadas, sem vida, totalmente acabadas, e que com a minha 
+        ajuda estão realizando seus sonhos, e hoje estão conquistando 
+        sua independência financeira.
+      </p>
+      <p class="text-justify">
+        Hoje eu não vejo pessoas, vejo tesouros, vasos que precisam 
+        ser moldados, refeitos para se tornarem uma obra de arte. 
+        Gosto de ouvir às pessoas, e busco encontrar outras joias 
+        raras para dar a chance que eu não tive no começo e direcioná 
+        las para o sucesso, não às recruto para ter ganho, mas para 
+        fazerem parte do meu time, às auxiliando e ensinando a como 
+        alcançar os seu sonhos. 
+        <span class="font-italic font-weight-bold">“Não existe sucesso sem uma equipe, 
+        mas aqui somos uma família”</span> .
+      </p>
+      <p class="text-justify">
+        E antes que você saia, se você se identificou com tudo o que
+        eu disse, se você acredita que possui um grande potencial 
+        e que só precisa de uma chance para mostrá-lo, e se está em 
+        busca da oportunidade certa, entre em contato agora comigo 
+        e venha fazer parte do meu time.
+      </p>
+    </div>
   </section>
 
   <section id="destaques">
